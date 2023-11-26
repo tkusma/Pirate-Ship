@@ -29,9 +29,10 @@ public class GameManager : MonoBehaviour
         if (!player || gameTime<=0)
         {
             Time.timeScale = 0;
-            gameOver = true;
             endGame.SetActive(true);
         }
+        if (!player)
+            gameOver = true;
     }
 
     public void RefreshScore()
