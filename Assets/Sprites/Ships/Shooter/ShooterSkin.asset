@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405eb1c747951e34f8cd75624ca42198, type: 3}
+  m_Name: ShooterSkin
+  m_EditorClassIdentifier: 
+  life66: {fileID: 21300000, guid: 37c40fc9e58cda64d9dd0aa21fdff9ef, type: 3}
+  life33: {fileID: 21300000, guid: 6421d7ca3c4d5714d88c697c35075cca, type: 3}
+  life0: {fileID: 21300000, guid: 3b97302fb09f41648891e698ce461105, type: 3}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405eb1c747951e34f8cd75624ca42198, type: 3}
+  m_Name: ChaserSkin
+  m_EditorClassIdentifier: 
+  life66: {fileID: 21300000, guid: 47ef94b4e221eb24fb01faa5b3cf164a, type: 3}
+  life33: {fileID: 21300000, guid: 5623c8bcd991e8c49994140a0385d56b, type: 3}
+  life0: {fileID: 21300000, guid: 9fcc7997019bd8a4eb2f47af01f5ccd5, type: 3}
