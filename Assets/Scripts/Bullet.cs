@@ -14,7 +14,12 @@ public class Bullet : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = (transform.rotation * Vector2.up).normalized*velocity;
-        Invoke(nameof(Explode), lifeTime);
+        Invoke(nameof(BulletDestroy), lifeTime);
+    }
+
+     void BulletDestroy()
+    {
+        Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
